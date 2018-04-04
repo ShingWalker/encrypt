@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <text>原值：你叫MINA？</text>
+  <view class="line"></view>
+  <text>md5加密后：</text>
+  <text>{{show_md5}}</text>
+  <view class="line"></view>
+  <text>sha1加密后：</text>
+  <text>{{show_sha1}}</text>
+  <view class="line"></view>
+  <text>base-64加密后：</text>
+  <text>{{show_base64_encode}}</text>
+  <text>base-64解密后：</text>
+  <text>{{show_base64_decode}}</text>
+  <view class="line"></view>
+  <text>aes加密后：</text>
+  <text>{{show_aes_encode}}</text>
+  <text>aes解密后：</text>
+  <text>{{show_aes_decode}}</text>
+  <view class="line"></view>
+</view>
